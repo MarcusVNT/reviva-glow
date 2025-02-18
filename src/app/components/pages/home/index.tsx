@@ -1,8 +1,11 @@
+import Header from "./header";
+import Hero from "./hero";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Olá, milionário!</h1>
-      <h2>Hoje você já lucrou 5.345,30 dólares.</h2>
+    <div className="min-h-screen">
+      <Header />
+      <Hero />;
     </div>
   );
 }
