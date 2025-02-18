@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <div className="max-w-7xl mx-auto py-4 px-12 flex justify-between items-center">
       <div>
         <Image
           src={"/reviva-glow-logo.png"}
