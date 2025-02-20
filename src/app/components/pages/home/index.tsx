@@ -1,6 +1,7 @@
 import Header from "./header";
 import Hero from "./hero";
 import PartOne from "./part-one";
+import PartTwo from "./part-two";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <PartOne />
+      <PartTwo />
     </div>
   );
 }
