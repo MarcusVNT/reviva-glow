@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function PartTwo() {
   return (
-    <div className="max-w-7xl mx-auto mt-4 py-4 px-8 flex flex-col sm:flex-row justify-between items-center">
-      <div className="w-1/3">
+    <div className="max-w-7xl mx-auto mt-4 py-4 px-8 flex flex-col sm:flex-row gap-4 justify-between items-center">
+      <div className="sm:w-2/3">
         <h2 className="text-3xl font-bold text-gray-900 mb-10">
           The Reverse Aging Mystery
         </h2>
@@ -31,36 +31,17 @@ export default function PartTwo() {
           </li>
         </ul>
       </div>
-      <div className="w-1/3">
+      <div className="w-full sm:w-1/3">
         <div className="relative w-full h-full">
           <Image
             src="/bottle.png"
             alt="Product Bottle"
             layout="responsive"
             objectFit="contain"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
         </div>
-      </div>
-      <div className="w-1/3">
-        <h2 className="text-3xl font-bold text-gray-900 mb-10">
-          The $93 Billion Cosmetic Industry's Best-Kept Secret
-        </h2>
-        <p className="text-lg text-gray-700 mb-2">
-          "The biggest mistake I see," says Dr. Lisa Chen, a leading Beverly
-          Hills dermatologist, "is women spending hundreds at Sephora and
-          Nordstrom on creams that simply cannot penetrate the skin's deep
-          layers."
-        </p>
-        <p className="text-lg text-gray-700 mb-2">
-          A recent Mayo Clinic study revealed that 92% of anti-aging products:
-        </p>
-        <ul className="list-disc list-inside pl-4 text-lg text-gray-700">
-          <li className="mb-2">Only work on the surface level.</li>
-          <li className="mb-2">Don't deliver essential nutrients.</li>
-          <li className="mb-2">Mask problems instead of solving them.</li>
-        </ul>
       </div>
     </div>
   );
