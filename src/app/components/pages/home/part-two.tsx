@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PartTwo() {
   return (
-    <div className="max-w-7xl mx-auto mt-4 py-4 px-8 flex flex-col sm:flex-row gap-4 justify-between items-center">
+    <div className="max-w-7xl mx-auto mt-4 py-4 px-8 flex flex-col sm:flex-row gap-4 justify-between items-center bg-gray-200">
       <div className="sm:w-2/3">
         <h2 className="text-3xl font-bold text-gray-900 mb-10">
           The Reverse Aging Mystery

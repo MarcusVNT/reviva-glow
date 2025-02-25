@@ -13,6 +13,7 @@ export default function Home() {
       <PartOne />
       <ArrowDown />
       <PartTwo />
+      <ArrowDown />
       <PartThree />
     </div>
   );
