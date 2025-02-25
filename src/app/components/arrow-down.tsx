@@ -1,7 +1,6 @@
 import { IoArrowDownCircleOutline } from "react-icons/io5";
 
 export default function ArrowDown() {
-  console.log("ArrowDown component rendered");
   return (
     <div className="max-w-7xl h-20 flex justify-center items-center">
       <div className="animate-bounce">
