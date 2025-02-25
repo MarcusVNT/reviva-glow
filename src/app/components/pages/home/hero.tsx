@@ -10,9 +10,9 @@ export default function Hero() {
           </h1>
         </div>
         <div>
-          <p className="text-xl">By Dr. Sarah Mitchell,</p>
-          <p className="text-xl">PhD Director of Aging Research,</p>
-          <p className="text-xl">
+          <p className="text-lg">By Dr. Sarah Mitchell,</p>
+          <p className="text-lg">PhD Director of Aging Research,</p>
+          <p className="text-lg">
             Stanford University Featured in Health & Wellness Today
           </p>
         </div>
