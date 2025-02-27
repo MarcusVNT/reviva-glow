@@ -1,3 +1,4 @@
+"use client";
 import ArrowDown from "../../arrow-down";
 import Header from "./header";
 import Hero from "./hero";
