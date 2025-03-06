@@ -6,13 +6,12 @@ export default function PartFour() {
   const handlePointerEnter = useCallback(() => {}, []);
   const handlePointerLeave = useCallback(() => {}, []);
   return (
-    <div className="max-w-7xl mx-auto py-4 px-8 flex flex-col  justify-between items-center bg-orange-one">
-      <div className="flex items-center">
-        <h2 className="text-3xl font-bold text-white mb-8 flex items-start">
-          The Silent Revolution Sweeping Across America
-        </h2>
-      </div>
-      <div className="flex flex-col items-start mb-8">
+    <div className="max-w-7xl mx-auto flex flex-col px-6 py-12 justify-between items-center bg-orange-one">
+      <h2 className="text-3xl font-bold text-white mb-8 flex items-start">
+        The Silent Revolution Sweeping Across America
+      </h2>
+
+      <div className="flex flex-col items-start sm:mb-8 px-3">
         <p className="text-lg text-orange-50 mb-2">
           Mary Thompson, 58, from Connecticut, was one of the study
           participants.
