@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function PartFive() {
   return (
-    <div className="max-w-7xl mx-auto mt-4 py-4 flex flex-col sm:flex-row gap-4 justify-between items-center bg-gray-200">
+    <div className="max-w-7xl mx-auto mt-4 flex flex-col sm:flex-row gap-4 justify-between items-center bg-gray-200">
       <div className="px-6">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">
           The Science Behind the Breakthrough
         </h2>
         <div className="px-3">
-          <p className="text-md sm:text-lg text-gray-700 mb-4">
+          <p className="text-md sm:text-lg text-gray-700 mb-4 mx-4 sm:ml-8">
             Researchers identified that the secret lies in a specific
             combination of:
           </p>
