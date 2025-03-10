@@ -2,7 +2,7 @@ export default function PartThree() {
   return (
     <div className="max-w-7xl mx-auto mb-14 px-6 flex flex-col justify-between items-center">
       <div className="flex items-center ">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 flex items-start">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 texte-center">
           The $93 Billion Cosmetic Industry's Best-Kept Secret
         </h2>
       </div>
@@ -27,7 +27,7 @@ export default function PartThree() {
         </p>
       </div>
       <div className="flex items-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-start">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 text-center">
           The Youth Paradox Unveiled
         </h2>
       </div>
