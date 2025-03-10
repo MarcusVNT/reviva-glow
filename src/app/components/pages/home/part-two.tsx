@@ -4,7 +4,7 @@ export default function PartTwo() {
   return (
     <div className="max-w-7xl mx-auto mt-4 flex flex-col sm:flex-row gap-4 justify-between items-center bg-gray-200">
       <div className="sm:w-2/3 px-6">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">
           The Reverse Aging Mystery
         </h2>
         <div className="px-3">
