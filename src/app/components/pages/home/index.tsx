@@ -1,6 +1,7 @@
 "use client";
 import ArrowDown from "../../arrow-down";
-import Header from "./header";
+import Footer from "../../footer";
+import Header from "../../header";
 import Hero from "./hero";
 import PartFive from "./part-five";
 import PartFour from "./part-four";
@@ -26,6 +27,7 @@ export default function Home() {
       <PartSix />
       <ArrowDown />
       <PartSeven />
+      <Footer />
     </div>
   );
 }
